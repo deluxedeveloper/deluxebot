@@ -1,0 +1,36 @@
+{
+  "name": "deluxe-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "cjs",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "cjs": "^0.0.11",
+    "common-tags": "^1.8.0",
+    "db": "^3.3.1",
+    "dbl-api": "^1.2.1",
+    "discord.js": "^12.5.3",
+    "es": "^0.7.3",
+    "esm": "^3.2.25",
+    "fs": "*",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^3.6.6",
+    "ms": "^2.1.3",
+    "node-superfetch": "^0.2.3",
+    "os": "^0.1.1",
+    "parse-ms": "^3.0.0",
+    "request-promise-native": "^1.0.9",
+    "superagent": "^6.1.0",
+    "throw": "^1.1.1",
+    "wio.db": "^4.0.20"
+  }
+}
